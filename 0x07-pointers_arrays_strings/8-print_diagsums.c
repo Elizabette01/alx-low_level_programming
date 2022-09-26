@@ -11,7 +11,7 @@ void print_diagsums(int *a, int size)
 	int i, multsize;
 	unsigned int diag_sum1, diag_sum2;
 
-	mulsize = 0;
+	multsize = 0;
 	diag_sum1 = 0;
 	diag_sum2 = 0;
 
