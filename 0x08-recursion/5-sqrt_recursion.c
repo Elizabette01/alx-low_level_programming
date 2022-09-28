@@ -16,7 +16,7 @@ int _sqrt(int num, int s)
 		if ((s * s) > num)
 			return (-1);
 		else
-			return(_sqrt(num, s + 1));
+			return (_sqrt(num, s + 1));
 	}
 }
 
