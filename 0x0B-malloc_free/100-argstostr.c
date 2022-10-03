@@ -4,7 +4,7 @@
  * argstostr - concatenates all arguments of your program
  * @ac: argument count
  * @av: pointer to array of size ac
- * Rerurn: NULL if ac == 0 or av == null, Pointer to a new string
+ * Return: NULL if ac == 0 or av == null, Pointer to a new string
  * Null on fail
  */
 char *argstostr(int ac, char **av)
@@ -18,11 +18,9 @@ char *argstostr(int ac, char **av)
 	if (ac == 0 || av == NULL)
 		return (NULL);
 	i = 0;
-
 	while (i < ac)
 	{
 		j = 0;
-
 		while (av[i][j])
 		{
 			size++;
@@ -36,18 +34,15 @@ char *argstostr(int ac, char **av)
 	if (arg == NULL)
 		return (NULL);
 	i = 0;
-
 	while (i < ac)
 	{
 		j = 0;
-
 		while (av[i][j])
 		{
 			arg[k] = av[i][j];
 			j++;
 			k++;
 		}
-
 		arg[k] = '\n';
 		k++;
 		i++;
