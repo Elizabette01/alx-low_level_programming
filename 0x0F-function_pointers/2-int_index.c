@@ -26,7 +26,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 				ret = i;
 				break;
 			}
-			if ((cmp(aray[i]) == (-1)))
+			if ((cmp(array[i]) == (-1)))
 			{
 				return (ret);
 			}
